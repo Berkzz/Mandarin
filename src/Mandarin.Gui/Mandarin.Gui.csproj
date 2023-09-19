@@ -21,6 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Mandarin.Core\Mandarin.Core.csproj" />
-    <ProjectReference Include="..\Mandarin.SdlPlayer\Mandarin.NAudioPlayer.csproj" />
+    <ProjectReference Include="..\Mandarin.NAudioPlayer\Mandarin.NAudioPlayer.csproj" />
   </ItemGroup>
 </Project>
