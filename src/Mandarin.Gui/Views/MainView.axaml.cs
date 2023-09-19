@@ -1,12 +1,9 @@
-﻿using System.IO;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Threading;
-using Avalonia.Controls;
+﻿using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Interactivity;
 using Avalonia.Platform.Storage;
 using Mandarin.Core.Interfaces.Audio;
+using System.Linq;
 
 namespace Mandarin.Gui.Views;
 

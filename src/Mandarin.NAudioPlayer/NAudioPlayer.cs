@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using Mandarin.Core.Interfaces.Audio;
+﻿using Mandarin.Core.Interfaces.Audio;
 using NAudio.Wave;
 
 namespace Mandarin.NAudioPlayer;
