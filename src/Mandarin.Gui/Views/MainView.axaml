@@ -12,5 +12,16 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <StackPanel>
+	  <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+		  <Button Click="OpenFileButton_OnClick">Open File</Button>
+	  </StackPanel>
+	  <StackPanel Orientation="Horizontal">
+      <Button Click="ButtonStop_OnClick">⏹</Button>
+		  <Button Click="ButtonPlay_OnClick">▶️</Button>
+      <Button Click="ButtonPause_OnClick">⏸</Button>
+    </StackPanel>
+    
+    <Slider Width="100" HorizontalAlignment="Left" ValueChanged="VolumeSlider_Changed" Name="Volume"/>
+  </StackPanel>
 </UserControl>
