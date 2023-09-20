@@ -16,7 +16,6 @@ public partial class MainView : UserControl
     {
         _player = new NAudioPlayer.NAudioPlayer();
         InitializeComponent();
-        Volume.Value = _player.Volume;
     }
 
     private void ButtonPlay_OnClick(object? sender, RoutedEventArgs e)

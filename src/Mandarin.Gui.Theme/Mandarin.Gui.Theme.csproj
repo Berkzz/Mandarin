@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mandarin.Gui.Controls\Mandarin.Gui.Controls.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Controls\MandarinControls.axaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Controls\PlayerSeekBar.axaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="MandarinTheme.axaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -8,5 +8,5 @@
         x:Class="Mandarin.Gui.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="Mandarin.Gui">
-        <views:MainView />
+	<views:MainView />
 </Window>

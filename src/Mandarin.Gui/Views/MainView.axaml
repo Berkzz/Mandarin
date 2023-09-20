@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:Mandarin.Gui.ViewModels"
+             xmlns:controls="clr-namespace:Mandarin.Gui.Controls;assembly=Mandarin.Gui.Controls"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Mandarin.Gui.Views.MainView"
              x:DataType="vm:MainViewModel">
@@ -12,7 +13,7 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <StackPanel>
+	<StackPanel>
 	  <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
 		  <Button Click="OpenFileButton_OnClick">Open File</Button>
 	  </StackPanel>
@@ -22,6 +23,6 @@
       <Button Click="ButtonPause_OnClick">⏸</Button>
     </StackPanel>
     
-    <Slider Width="100" HorizontalAlignment="Left" ValueChanged="VolumeSlider_Changed" Name="Volume"/>
+    <controls:PlayerSeekBar ValueChanged="VolumeSlider_Changed" Width="100" HorizontalAlignment="Left" Name="Volume"/>
   </StackPanel>
 </UserControl>
