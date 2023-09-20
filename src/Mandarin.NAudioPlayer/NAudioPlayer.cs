@@ -11,7 +11,6 @@ public class NAudioPlayer : IAudioPlayer
     public NAudioPlayer()
     {
         _outputDevice = new WaveOutEvent();
-        _outputDevice.Init();
         _outputDevice.PlaybackStopped += OutputDevice_PlaybackStopped;
     }
 
